@@ -59,8 +59,23 @@ footer {
 
 /* Search Bar */
 .search-bar {
-    position: absolute;
     display: flex;
     align-items: center;
-    left: 50%;
+    left: 45%;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+}
+
+button {
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+/* Top left logo */
+
+.logo {
+    max-width: 100px;
 }
