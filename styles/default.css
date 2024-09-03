@@ -115,7 +115,6 @@ button {
 .item {
     background-color: white;
     border-radius: 8px;
-    overflow: hidden;
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -138,9 +137,6 @@ button {
     font-size: 1.1em;
     margin: 0;
     margin-bottom: 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .item-details p {
@@ -173,7 +169,6 @@ button {
     width: 300px; 
     height: auto; 
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .item-details-content {
@@ -203,7 +198,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: darkblue;
     color: white;
     font-size: 1em;
 }
@@ -213,7 +208,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #dc3545;
+    background-color: red;
     color: white;
     font-size: 1em;
 }
