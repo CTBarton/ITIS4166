@@ -1,4 +1,5 @@
 /* Basic Elements */
+
 body {
     background-color:  #7553d4;
     color: white;
@@ -216,7 +217,7 @@ button {
 
 /* Form CSS */
 
- form {
+form {
     background-color: white;
     padding: 40px;
     border-radius: 5px;
