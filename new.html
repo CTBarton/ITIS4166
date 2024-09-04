@@ -11,7 +11,7 @@
 
     <header>
         <nav>
-            <a href="/"><img src = "images/Click Board_transparent-.png" alt = "Logo" class = "logo"></a>
+            <a href="/"><img src = "images/Click_Board_transparent-.png" alt = "Logo" class = "logo"></a>
     </nav>
 
         <nav>
@@ -31,20 +31,49 @@
 
     </header>
 
-    </header>
-
     <main>
-        <h2>Main Content</h2>
-        <p> This page is the new.html </p>
+        <h2>Sell on our marketplace!</h2>
+        <p> Are you looking to sell an old mouse and/or keyboard? Well look no further because at Click Board, we have you covered</p>
+
+        <form action = "#">
+            <label for = "condition">Please select a condition: </label>
+            <select id = "condition" name = "condition">
+                <option value = "blank">Select the condition of your item: </option>
+                <option value = "blank">New </option>
+                <option value = "blank">Excellent </option>
+                <option value = "blank">Good </option>
+                <option value = "blank">Slightly Used </option>
+                <option value = "blank">Used </option>
+            </select>
+
+            <label for = "title">Title: </label>
+            <input type = "text" id = "title" name = "title" required>
+
+            <label for = "seller">Seller: </label>
+            <input type = "text" id = "seller" name = "seller" required>
+
+            <label for = "price">Price: </label>
+            <input type = "number" id = "price" name = "price" min = "1" step = "any" required>
+
+            <label for ="details">Details: </label>
+            <textarea id = "details" name = "details" rows = "4" required></textarea>
+
+            <label for="image">Image: </label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+
+            <button type = "submit">Submit</button>
+        </form>
+
+
     </main>
 
     <footer>
         <p>&copy; 2024 Click Board</p>
         <!--Social Media Icons-->
         <div class = "social-media" id = "media-icons">
-            <i class="fa-brands fa-twitter"></i></a>
-            <i class="fa-brands fa-facebook"></i></a>
-            <i class="fa-brands fa-instagram"></i></a>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
         </div>
 
     </footer>

@@ -1,7 +1,7 @@
 /* Basic Elements */
 body {
-    background-color: white;
-    color: black;
+    background-color:  #7553d4;
+    color: white;
     font-family: 'Arial', sans-serif;
     margin: 0;
     display: flex;
@@ -9,8 +9,12 @@ body {
     min-height: 100vh;
 }
 
+main h2, main p {
+    text-align: center;
+}
+
 header {
-    background-color: #00a2ff;
+    background-color: black;
     height: 100px;
     padding: 10px;
     display: flex;
@@ -42,18 +46,18 @@ nav ul li {
 }
 
 a:link, a:visited {
-    color: black; 
+    color: white; 
     text-decoration: none;
 }
 
 a:hover, a:active {
-    color: white; 
+    color: #00a2ff; 
     text-decoration: none;
 }
 
 
 footer {
-    background-color: #00a2ff;    
+    background-color: black;    
     margin-top: auto;
     flex: 0 0 50px;
     position: relative;
@@ -72,9 +76,8 @@ input {
 }
 
 button {
-    justify-content: space-between;
     margin-left: 10px;
-}
+} 
 
 /* Top left logo */
 
@@ -98,18 +101,19 @@ button {
 
 .social-media i {
     margin: 0 10px;
-    color: black; 
+    color: white; 
     font-size: 32px; 
 }
 
 /* Item Listings */
+
 .item-listing {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    background-color: #00a2ff;
+    color: black;
 }
 
 .item {
@@ -130,11 +134,11 @@ button {
 
 .item-details {
     padding: 15px;
-    text-align: left;
+    text-align: center;
 }
 
 .item-details h3 {
-    font-size: 1.1em;
+    font-size: 17px;
     margin: 0;
     margin-bottom: 10px;
 }
@@ -145,7 +149,7 @@ button {
 }
 
 .item-details .price {
-    font-size: 1.2em;
+    font-size: 19px;
     color: #00a2ff;
     font-weight: bold;
 }
@@ -156,59 +160,88 @@ button {
 
 /* item.html CSS */
 
-.item-details-container {
+ .single-item {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     padding: 50px 20px;
     gap: 50px; 
-    background-color: #00a2ff; 
-}
+} 
 
-.item-image-wrapper img {
+.item-image img {
     width: 300px; 
     height: auto; 
     border-radius: 8px;
 }
 
-.item-details-content {
+.single-item-details {
     max-width: 600px; 
-    color: black;
+    color: white;
 }
 
-.item-details-content h1 {
-    font-size: 2em;
+.single-item-details h1 {
+    font-size: 32px;
     color: white; 
     margin-bottom: 20px;
 }
 
 .item-price {
-    font-size: 1.5em;
-    color: black;
+    font-size: 24px;
+    color: white;
     margin: 10px 0;
 }
 
-.item-actions {
+.item-buttons {
     margin-top: 20px;
 }
 
-.btn-edit {
+.edit-button {
     padding: 10px 20px;
     margin-right: 10px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    background-color: darkblue;
+    background-color: #00a2ff;
     color: white;
-    font-size: 1em;
+    font-size: 16px;
 }
 
-.btn-delete {
+.delete-button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    background-color: red;
+    background-color: black;
     color: white;
-    font-size: 1em;
+    font-size: 16px;
 }
+
+/* Form CSS */
+
+ form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    max-width: 700px;
+    margin: 0 auto;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea,
+select {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+} 
+
+
