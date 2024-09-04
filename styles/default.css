@@ -23,10 +23,6 @@ header {
     align-items: center;
 }
 
-header h1 {
-    margin: 0;
-}
-
 nav {
     display: flex;
     align-items: center;
@@ -68,7 +64,6 @@ footer {
 .search-bar {
     display: flex;
     align-items: center;
-    left: 45%;
 }
 
 input {
@@ -101,8 +96,8 @@ button {
 }
 
 .social-media i {
-    margin: 0 10px;
     color: white; 
+    margin: 0 10px;
     font-size: 32px; 
 }
 
@@ -119,7 +114,6 @@ button {
 
 .item {
     background-color: white;
-    border-radius: 8px;
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -128,8 +122,6 @@ button {
 .item img {
     width: 100%; 
     height: 200px; 
-    object-fit: cover; 
-    border-radius: 5px 5px 0 0; 
 }
 
 
@@ -172,23 +164,22 @@ button {
 .item-image img {
     width: 300px; 
     height: auto; 
-    border-radius: 8px;
 }
 
 .single-item-details {
     max-width: 600px; 
-    color: white;
+    color: white; 
 }
 
 .single-item-details h1 {
-    font-size: 32px;
     color: white; 
+    font-size: 32px;
     margin-bottom: 20px;
 }
 
 .item-price {
-    font-size: 24px;
     color: white;
+    font-size: 24px;
     margin: 10px 0;
 }
 
@@ -197,21 +188,17 @@ button {
 }
 
 .edit-button {
-    padding: 10px 20px;
-    margin-right: 10px;
-    border: none;
-    border-radius: 5px;
     background-color: #00a2ff;
     color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
     font-size: 16px;
 }
 
 .delete-button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
     background-color: black;
     color: white;
+    padding: 10px 20px;
     font-size: 16px;
 }
 
@@ -219,11 +206,10 @@ button {
 
 form {
     background-color: white;
-    padding: 40px;
-    border-radius: 5px;
+    color: black;
+    padding: 40px;  
     max-width: 700px;
     margin: 0 auto;
-    color: black;
 }
 
 label {
@@ -242,7 +228,6 @@ select {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid black;
-    border-radius: 5px;
 } 
 
 
